@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-arxo-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://arxo.io/
+Arxo provides Law as Code infrastructure, writing statutes and regulations as executable models that run on case facts and return answers with the underlying provisions. The platform enables applications and AI agents to query versioned legal models, see where official text does not apply, and publish findings to a public register after notifying responsible offices.
+
+**Areas:** Company · LawTech · LegalTech · RegTech · AI
+
+## arxo-io on APIs.io
+
+Everything profiled for arxo-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arxo-io/](https://apis.io/providers/arxo-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Arxo Law](https://apis.io/apis/arxo-io/arxo-law/) — Reference documentation for the Arxo Law platform.
+- [arxo-io API](https://apis.io/apis/arxo-io/arxo-io-api/) — arxo-io API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiDeadlineCaptureResponse](https://apis.io/schemas/arxo-io/arxo-io-get-api-deadline-capture-response/)
+- [PostApiDeadlineEvaluateRequest](https://apis.io/schemas/arxo-io/arxo-io-post-api-deadline-evaluate-request/)
+- [PostApiDeadlineEvaluateResponse](https://apis.io/schemas/arxo-io/arxo-io-post-api-deadline-evaluate-response/)
+- [PostApiDeadlineReplayResponse](https://apis.io/schemas/arxo-io/arxo-io-post-api-deadline-replay-response/)
+- [PostMcpRequest](https://apis.io/schemas/arxo-io/arxo-io-post-mcp-request/)
+- [PostMcpResponse](https://apis.io/schemas/arxo-io/arxo-io-post-mcp-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Arxo Io Context](https://apis.io/jsonld/arxo-io/arxo-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [arxo-io API Rules](https://apis.io/rules/arxo-io/arxo-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Arxo Io Authentication](https://apis.io/security/arxo-io/arxo-io-authentication/)
+- [Arxo Io Domain Security](https://apis.io/security/arxo-io/arxo-io-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Arxo Io Scopes](https://apis.io/scopes/arxo-io/arxo-io-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://arxo.io/)
+- [Documentation](https://docs.arxo.io/)
+- [Getting started](https://docs.arxo.io/guide/quickstart/)
+- [API reference](https://docs.arxo.io/reference/)
+- [Blog](https://medium.com/@arxo)
+- [GitHub](https://github.com/arxohq)
+
+## API Evangelist rating
+
+**Kin Score 37.3** — thin · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 49.1 |
+| Contract governance | 70.9 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 20.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arxo-io/](https://apis.io/providers/arxo-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for arxo-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arxo-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
